@@ -50,13 +50,9 @@ export { createUserProfile } from "./createUserProfile";
 /**
  * reserveSquare
  * Purpose: Transition square from available → reserved
+ * Implementation: See reserveSquare.ts for full business logic
  */
-export const reserveSquare = functions
-  .region(REGION)
-  .https.onCall(async (data, context) => {
-    // Stub: No business logic
-    return NOT_IMPLEMENTED;
-  });
+export { reserveSquare } from "./reserveSquare";
 
 /**
  * confirmPaymentIntent
