@@ -43,13 +43,9 @@ const NOT_IMPLEMENTED = {
 /**
  * createUserProfile
  * Purpose: Initialize new user document after onboarding
+ * Implementation: See createUserProfile.ts for full business logic
  */
-export const createUserProfile = functions
-  .region(REGION)
-  .https.onCall(async (data, context) => {
-    // Stub: No business logic
-    return NOT_IMPLEMENTED;
-  });
+export { createUserProfile } from "./createUserProfile";
 
 /**
  * reserveSquare
