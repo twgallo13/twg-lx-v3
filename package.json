@@ -1,0 +1,24 @@
+{
+  "name": "twg-lx-v3",
+  "version": "1.0.0",
+  "description": "Local rebuild of TWG-LX using Next.js and Firebase.",
+  "main": "test-function.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twgallo13/twg-lx-v3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/twgallo13/twg-lx-v3/issues"
+  },
+  "homepage": "https://github.com/twgallo13/twg-lx-v3#readme",
+  "dependencies": {
+    "firebase": "^12.8.0"
+  }
+}
