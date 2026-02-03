@@ -13,16 +13,14 @@ Local rebuild of TWG-LX using Next.js and Firebase.
 npm create next-app@latest web
 cd web
 npm run dev
-Rules
-Do not introduce Turbopack
+```
 
-Do not commit package-lock.json
+### Rules
+- Do not introduce Turbopack
+- Follow BLUEPRINT.md strictly
 
-Follow BLUEPRINT.md strictly
-
-Status
+### Status
 MVP rebuild in progress.
-
 
 ---
 
@@ -35,7 +33,7 @@ In Cursor Chat, paste this **once** before generating code:
 > Do not add features or assumptions not explicitly listed.  
 > Prefer minimal diffs and explain file changes after each step.
 
-This prevents Cursor from “helpfully” going off-script.
+This prevents Cursor from "helpfully" going off-script.
 
 ---
 
@@ -45,21 +43,19 @@ From `C:\TWG-LX` terminal:
 
 ```bash
 npm create next-app@latest web -- --ts --eslint --tailwind --app --src-dir --import-alias "@/*"
+```
+
 Choose:
-
-TypeScript → Yes
-
-ESLint → Yes
-
-Tailwind → Yes
-
-App Router → Yes
-
-src → Yes
-
-React Compiler → No
+- TypeScript → Yes
+- ESLint → Yes
+- Tailwind → Yes
+- App Router → Yes
+- src → Yes
+- React Compiler → No
 
 Then:
 
+```bash
 cd web
 npm run dev
+```
