@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --neutral-bg: #f5f5f4;
+  --neutral-border: #d6d3d1;
+  --neutral-tint: #e7e5e4;
+  --neutral-darker: #d6d3d1;
+  --gold-ring: #ca8a04;
+  --muted: #a8a29e;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+  background: var(--neutral-bg);
+}
